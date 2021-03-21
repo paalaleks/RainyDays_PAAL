@@ -1,0 +1,209 @@
+@font-face {
+  font-family: "../fonts/BaksoSapi 2.otf";
+  src: url("../fonts/BaksoSapi 2.otf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2e9df;
+  color: #2d3319;
+  font-size: 1.5em;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h2,
+h3 {
+  font-family: BaksoSapi;
+  font-size: 1.5em;
+}
+
+span {
+  font-weight: bold;
+}
+
+/* Header */
+
+.splashIcon {
+  width: 24%;
+  height: 24%;
+  min-width: 221px;
+  min-height: 52px;
+  object-fit: scale-down;
+}
+
+nav li {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+nav ul {
+  padding: 0px;
+}
+
+.fas,
+.far {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.div__1,
+.div__2,
+.div__3 {
+  display: inline;
+}
+
+.div__1 a {
+  padding: 20px;
+}
+.div__1 {
+  position: relative;
+  right: 125px;
+}
+
+.div__2 > * {
+  text-decoration: none;
+  color: #2d3319;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.div__2 {
+  margin-right: 50px;
+}
+
+header {
+  margin-top: 127px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  white-space: nowrap;
+  margin-left: 9.7%;
+  margin-right: 8.7%;
+}
+
+/* Footer */
+
+footer {
+  position: absolute;
+  top: 1700px;
+  left: 0px;
+  width: 100%;
+  height: 739px;
+  background: transparent url("../images/Artboard\ 2.png") 0% 0% no-repeat
+    padding-box;
+  opacity: 1;
+}
+
+.FooterLinks {
+  top: 369.5px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  color: #f2e9df;
+  opacity: 1;
+  letter-spacing: 0px;
+  font: normal normal normal 18px/59px Source Sans Pro;
+  opacity: 1;
+}
+
+footer .left {
+  text-align: right;
+  margin: 10px;
+}
+
+footer .right {
+  text-align: left;
+  margin: 10px;
+}
+
+footer .right a {
+  text-decoration: none;
+  color: #f2e9df;
+}
+
+footer i {
+  margin-left: 10px;
+  padding: 10px;
+}
+
+/* home page */
+
+main {
+  /* margin-left: 140px;
+  margin-right: 140px; */
+  margin-left: 9%;
+  margin-right: 9%;
+}
+
+/* section 1 */
+
+.discount__section {
+  background: transparent url("../images/heart.png") no-repeat;
+  background-size: 63%;
+  background-position-x: 50%;
+  background-position-y: 20%;
+  background-position: top;
+  object-fit: scale-down;
+  height: 700px;
+  flex-grow: inherit;
+}
+
+.discount__text {
+  top: 20%;
+  margin-left: 0.8%;
+  position: relative;
+}
+
+/* section 1 _ instagram  */
+
+.flexbox-container {
+  position: absolute;
+  top: 360px;
+  right: 9%;
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+}
+.flexbox-item {
+  width: 200px;
+  height: 200px;
+}
+
+* .flexbox-item {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.flexbox-item-1 {
+  background-image: url("../images/insta.png");
+}
+.flexbox-item-2 {
+  background-image: url("../images/insta_2.png");
+}
+.flexbox-item-3 {
+  background-image: url("../images/insta_3.png");
+}
+.flexbox-item-4 {
+  background-image: url("../images/insta_4.png");
+}
+.flexbox-item-5 {
+  background-image: url("../images/insta_5.png");
+}
+.flexbox-item-6 {
+  background-image: url("../images/insta_6.png");
+}
+
+/* section 2 */
+
+.environment {
+  position: relative;
+}
+
+.environment__img {
+  width: 100%;
+}
