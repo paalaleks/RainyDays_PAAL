@@ -16,7 +16,7 @@ body {
 
 h2,
 h3 {
-  font-family: BaksoSapi;
+  font-family: BaksoSapi, sans-serif, Verdana, Geneva, Tahoma;
   font-size: 1.5em;
 }
 
@@ -24,7 +24,9 @@ span {
   font-weight: bold;
 }
 
-/* Header */
+/* media queries */
+
+/* header  */
 
 .splashIcon {
   width: 24%;
@@ -32,58 +34,56 @@ span {
   min-width: 221px;
   min-height: 52px;
   object-fit: scale-down;
+  align-self: center;
+  margin-right: 5px;
+}
+
+nav {
+  flex-grow: 1;
 }
 
 nav li {
-  display: inline-block;
+  margin: 0;
+  padding: 0;
   text-decoration: none;
+  padding-left: 1em;
   font-weight: bold;
-  font-size: 1em;
+}
+
+nav ul li:nth-of-type(1) {
+  padding-right: 2%;
 }
 
 nav ul {
-  padding: 0px;
+  padding: 0;
+  list-style: none;
+  display: flex;
 }
 
-.fas,
-.far {
-  padding-left: 10px;
-  padding-right: 5px;
+nav ul li:nth-of-type(1) {
+  margin-left: auto;
 }
 
-.div__1,
-.div__2,
-.div__3 {
-  display: inline;
+nav ul li:nth-of-type(3) {
+  margin-left: auto;
 }
 
-.div__1 a {
-  padding: 20px;
-}
-.div__1 {
-  position: relative;
-  right: 125px;
+nav ul li:nth-of-type(6),
+nav ul li:nth-of-type(7),
+nav ul li:nth-of-type(8) {
+  display: none;
 }
 
-.div__2 > * {
-  text-decoration: none;
-  color: #2d3319;
-  font-weight: bold;
-  padding: 10px;
-}
-
-.div__2 {
-  margin-right: 50px;
+nav ul li:nth-of-type(9) {
+  margin-left: auto;
 }
 
 header {
-  margin-top: 127px;
   display: flex;
-  justify-content: space-between;
-  align-content: center;
-  white-space: nowrap;
   margin-left: 9.7%;
   margin-right: 8.7%;
+  margin-top: 127px;
+  white-space: nowrap;
 }
 
 /* Footer */
@@ -131,11 +131,39 @@ footer i {
   padding: 10px;
 }
 
+/* media queries */
+
+@media only screen and (max-width: 960px) {
+  nav ul li:nth-of-type(3),
+  nav ul li:nth-of-type(4),
+  nav ul li:nth-of-type(5) {
+    display: none;
+  }
+
+  nav ul li:nth-of-type(6),
+  nav ul li:nth-of-type(7),
+  nav ul li:nth-of-type(8) {
+    display: inline;
+  }
+
+  nav ul li:nth-of-type(6) {
+    margin-left: auto;
+  }
+}
+
+@media only screen and (max-width: 795px) {
+  nav ul {
+    flex-direction: row;
+  }
+
+  header {
+    flex-direction: column;
+  }
+}
+
 /* home page */
 
 main {
-  /* margin-left: 140px;
-  margin-right: 140px; */
   margin-left: 9%;
   margin-right: 9%;
 }
