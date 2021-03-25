@@ -39,7 +39,7 @@ span {
 header {
   margin-left: 9.7%;
   margin-right: 8.7%;
-  margin-top: 127px;
+  margin-top: 90px;
   margin-bottom: 100px;
   display: flex;
   flex-wrap: wrap;
@@ -48,7 +48,6 @@ header {
 
 nav {
   flex-grow: 1;
-  /* background-color: aqua; */
 }
 
 ul {
@@ -61,7 +60,6 @@ nav ul {
 }
 
 nav ul li {
-  /* background-color: blueviolet; */
   text-decoration: none;
   font-weight: bold;
   display: inline;
@@ -69,13 +67,11 @@ nav ul li {
   flex-wrap: wrap;
 }
 
-.div_1 a:nth-of-type(1),
-.div_1 a:nth-of-type(2) {
-  padding-right: 8px;
-  padding-left: 8px;
+nav ul li i {
+  padding: 5px;
 }
 
-nav ul li i {
+nav ul li a {
   padding: 5px;
 }
 
@@ -97,15 +93,13 @@ nav ul li i {
 
 /* media queries */
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 975px) {
   .div_3 {
-    display: inline-block;
+    display: inline;
     margin-left: auto;
-    /* background-color: yellow; */
   }
   .div_4 {
     margin-left: 0;
-    /* background-color: violet; */
   }
   .div_2 {
     display: none;
@@ -113,18 +107,21 @@ nav ul li i {
   .splashIcon {
     margin-left: auto;
     margin-right: auto;
-    padding-right: 0px;
   }
 }
 
-@media only screen and (max-width: 540px) {
+@media only screen and (max-width: 546px) {
   nav ul {
-    display: inline-block;
+    display: inline;
+  }
+
+  nav {
+    margin-left: auto;
+    margin-right: auto;
   }
 
   nav {
     flex-grow: 0;
-    margin: auto;
   }
 
   .div_4 {
@@ -132,13 +129,15 @@ nav ul li i {
   }
 
   .div_1 {
-    padding: 0px 0px 8px 0px;
+    padding: 10px 0px 20px 0px;
   }
 
-  .div_1 a:nth-of-type(1),
-  .div_1 a:nth-of-type(2) {
-    padding-right: 2px;
-    padding-left: 2px;
+  nav ul li a {
+    padding: 0px;
+  }
+
+  .splashIcon {
+    padding-right: 0px;
   }
 }
 
