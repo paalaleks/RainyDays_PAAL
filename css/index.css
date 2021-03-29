@@ -191,7 +191,7 @@ footer i {
 
 @media only screen and (max-width: 480px) {
   footer {
-    top: 2000px;
+    top: 2300px;
   }
   .FooterLinks {
     flex-direction: column;
@@ -302,7 +302,7 @@ main {
   }
 
   .instagramlogo_2 img {
-    max-width: 135px;
+    min-width: 75px;
   }
 
   .discount__text {
