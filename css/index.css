@@ -189,7 +189,7 @@ footer i {
   padding: 10px;
 }
 
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 480px) {
   footer {
     top: 2000px;
   }
@@ -200,6 +200,11 @@ footer i {
   .left,
   .right {
     text-align: center;
+  }
+
+  main {
+    margin-left: 1%;
+    margin-right: 1%;
   }
 }
 
@@ -258,11 +263,6 @@ main {
   display: none;
 }
 
-.instagramlogo_2 img {
-  max-width: 135px;
-  min-width: 30px;
-}
-
 .insta-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -299,6 +299,10 @@ main {
     position: relative;
     display: inline-flex;
     top: 5px;
+  }
+
+  .instagramlogo_2 img {
+    max-width: 135px;
   }
 
   .discount__text {
