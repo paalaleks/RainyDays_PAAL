@@ -29,8 +29,7 @@ span {
 .splashIcon {
   width: 30%;
   height: 30%;
-  min-width: 224px;
-  min-height: 65px;
+  min-width: 320px;
   object-fit: scale-down;
   align-self: center;
   padding-right: 8px;
@@ -97,7 +96,7 @@ nav ul li a {
 
 /* media queries */
 
-@media only screen and (max-width: 988px) {
+@media only screen and (max-width: 1084px) {
   .div_3 {
     display: inline;
     margin-left: auto;
@@ -118,22 +117,30 @@ nav ul li a {
   nav ul {
     display: inline;
   }
-
+  .splashIcon {
+    min-width: 280px;
+  }
   nav {
+    position: relative;
     margin-left: auto;
     margin-right: auto;
-  }
-
-  nav {
     flex-grow: 0;
   }
 
-  .div_4 {
-    display: unset;
+  .discount__text {
+    min-width: 310px;
   }
 
   .div_1 {
-    padding: 10px 0px 20px 0px;
+    padding: 15px 0px 15px 0px;
+    position: relative;
+    left: 0;
+  }
+
+  .div_4 {
+    position: relative;
+    right: 0;
+    display: inline-flex;
   }
 
   nav ul li a {
@@ -153,9 +160,7 @@ footer {
   left: 0px;
   width: 100%;
   height: 739px;
-  background: transparent url("../images/Artboard\ 2.png") 0% 0% no-repeat
-    padding-box;
-  opacity: 1;
+  background: transparent url("../images/Artboard\ 2.png") 0% 0% no-repeat;
 }
 
 .FooterLinks {
@@ -164,23 +169,17 @@ footer {
   display: flex;
   justify-content: center;
   color: #f2e9df;
-  opacity: 1;
   letter-spacing: 0px;
-  font: normal normal normal 16px/59px Source Sans Pro;
-  opacity: 1;
+  font: normal normal normal 0.9em/59px Source Sans Pro;
 }
 
-footer .left {
-  text-align: right;
-  margin: 10px;
-}
-
-footer .right {
+.left,
+.right {
   text-align: left;
   margin: 10px;
 }
 
-footer .right a {
+.right a {
   text-decoration: none;
   color: #f2e9df;
 }
@@ -188,6 +187,20 @@ footer .right a {
 footer i {
   margin-left: 10px;
   padding: 10px;
+}
+
+@media only screen and (max-width: 410px) {
+  footer {
+    top: 2000px;
+  }
+  .FooterLinks {
+    flex-direction: column;
+    top: 300px;
+  }
+  .left,
+  .right {
+    text-align: center;
+  }
 }
 
 /* home page */
@@ -246,7 +259,7 @@ main {
 }
 
 .instagramlogo_2 img {
-  max-width: 100px;
+  max-width: 135px;
   min-width: 30px;
 }
 
@@ -274,7 +287,7 @@ main {
   width: 100%;
 }
 
-@media only screen and (max-width: 988px) {
+@media only screen and (max-width: 1084px) {
   .discount-section {
     display: contents;
   }
