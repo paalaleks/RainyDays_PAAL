@@ -104,7 +104,7 @@ nav ul li .fa-bars {
   .fa-search {
     position: absolute;
     top: 0;
-    right: 16.5%;
+    right: 15.5%;
     margin-top: 35px;
   }
 
@@ -259,6 +259,10 @@ footer {
   padding: 0 9px;
 }
 
+.footer-copyright {
+  font-size: 0.9em;
+}
+
 @media only screen and (max-width: 400px) {
   .Footer-style {
     flex-direction: column;
@@ -273,5 +277,21 @@ footer {
   main {
     margin-left: 3%;
     margin-right: 3%;
+  }
+
+  .fa-shopping-cart {
+    margin-right: 5%;
+  }
+
+  .fa-search {
+    right: 16.5%;
+  }
+
+  nav ul li .fa-bars {
+    margin-left: 5%;
+  }
+
+  .environment__p2 {
+    display: none;
   }
 }
