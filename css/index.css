@@ -264,4 +264,14 @@ footer {
     flex-direction: column;
     width: 300px;
   }
+
+  header {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+  main {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
 }
