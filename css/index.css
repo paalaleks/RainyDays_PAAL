@@ -85,11 +85,11 @@ nav ul li .fa-bars {
 
 /* moving to mobile navigation */
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 700px) {
   .splashIcon {
     margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    padding: unset;
   }
 
   nav ul li .fa-bars {
@@ -99,6 +99,10 @@ nav ul li .fa-bars {
     left: 0;
     margin-left: 9%;
     margin-top: 35px;
+  }
+
+  nav {
+    align-self: flex-end;
   }
 
   .fa-search {
@@ -114,11 +118,6 @@ nav ul li .fa-bars {
     right: 0;
     margin-right: 9%;
     margin-top: 35px;
-  }
-
-  nav ul li:nth-of-type(1),
-  nav ul li:nth-of-type(2) {
-    position: relative;
   }
 
   nav ul li:nth-of-type(3),
@@ -264,10 +263,6 @@ footer {
 }
 
 @media only screen and (max-width: 400px) {
-  body {
-    font-size: 1.4em;
-  }
-
   .Footer-style {
     flex-direction: column;
     width: 300px;
