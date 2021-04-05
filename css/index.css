@@ -264,6 +264,10 @@ footer {
 }
 
 @media only screen and (max-width: 400px) {
+  body {
+    font-size: 1.4em;
+  }
+
   .Footer-style {
     flex-direction: column;
     width: 300px;
