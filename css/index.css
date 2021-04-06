@@ -24,112 +24,74 @@ h3 {
   font-weight: bold;
 }
 
-/* header  */
+header {
+  display: flex;
+  margin: 100px 80px 90px 80px;
+  align-items: center;
+}
 
 .splashIcon {
-  width: 30%;
-  height: 30%;
-  min-width: 280px;
+  /* background-color: wheat; */
+
+  width: 27%;
   object-fit: scale-down;
-  align-self: center;
-  padding-right: 8px;
+  min-width: 260px;
+  position: relative;
+  left: 0;
+  top: 0;
 }
 
-header {
-  /* background-color: white; */
-  margin-left: 9%;
-  margin-right: 9%;
-  margin-top: 100px;
-  margin-bottom: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-}
-
-nav {
-  flex-grow: 1;
-}
-
-ul {
-  padding: 0;
-  align-items: center;
-  list-style: none;
-  display: flex;
-}
-
-nav ul li {
-  text-decoration: none;
-  font-weight: bold;
+ul li {
+  /* background-color: violet; */
   display: inline-flex;
+  font-weight: bold;
   white-space: nowrap;
 }
 
-nav ul li i,
-nav ul li a {
-  padding: 5px;
+ul {
+  display: inline-flex;
+  padding: 0;
 }
 
-.current {
-  opacity: 50%;
-}
-
-nav ul li:nth-of-type(1),
-nav ul li:nth-of-type(6),
-nav ul li:nth-of-type(3) {
-  margin-left: auto;
-}
-
-nav ul li .fa-bars {
+.fa-bars {
   display: none;
 }
 
-/* moving to hamburger menu */
+.adventure {
+  position: absolute;
+  left: 37.5%;
+}
 
-@media only screen and (max-width: 700px) {
-  .splashIcon {
-    margin-top: 20px;
-    margin: auto;
-    padding: unset;
-  }
+.adventure-1 {
+  margin-right: 25px;
+  /* background-color: steelblue; */
+}
 
-  nav ul li .fa-bars {
-    display: inline;
-    position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: 9%;
-    margin-top: 35px;
-  }
+.pages {
+  position: absolute;
+  right: 16%;
+}
 
-  nav {
-    align-self: flex-end;
-  }
+.pages a {
+  padding: 0px 6px;
+  /* background-color: aqua; */
+}
 
-  .fa-search {
-    position: absolute;
-    top: 0;
-    right: 15.5%;
-    margin-top: 35px;
-  }
+.icons {
+  position: absolute;
+  right: 0;
+  margin-right: 80px;
+  /* background-color: violet; */
+}
 
-  .fa-shopping-cart {
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-right: 9%;
-    margin-top: 35px;
-  }
-
-  nav ul li:nth-of-type(3),
-  nav ul li:nth-of-type(4),
-  nav ul li:nth-of-type(5) {
-    display: none;
-  }
+.icons i {
+  padding: 0px 4px 0px 8px;
+  /* background-color: silver; */
 }
 
 main {
-  margin-left: 9%;
-  margin-right: 9%;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .discount-section {
@@ -149,8 +111,10 @@ main {
 }
 
 .discount__text {
+  max-width: 430px;
+  min-width: 250px;
   position: relative;
-  flex: 1;
+  flex: 4;
   padding-right: 1em;
 }
 
@@ -163,7 +127,9 @@ main {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   width: 60em;
-  flex: 2;
+  flex: 3;
+  right: 0;
+  position: relative;
 }
 
 .insta img {
@@ -194,7 +160,21 @@ main {
   display: none;
 }
 
-@media only screen and (max-width: 977px) {
+@media only screen and (max-width: 990px) {
+  header {
+    display: block;
+  }
+
+  .adventure {
+    position: relative;
+    left: 0;
+  }
+
+  .pages {
+    position: absolute;
+    right: 20%;
+  }
+
   .discount-section {
     display: block;
   }
@@ -217,6 +197,78 @@ main {
     display: inline;
     right: 0;
     margin-top: 10px;
+  }
+
+  .discount__text {
+    max-width: 750px;
+    padding-right: unset;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  header {
+    margin: 100px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    margin: 0px 20px 0px 20px;
+  }
+
+  nav {
+    margin: auto;
+  }
+
+  ul {
+    display: inline-block;
+  }
+
+  .adventure {
+    display: flex;
+    position: unset;
+  }
+
+  .adventure-1 {
+    margin-right: 20px;
+  }
+
+  .adventure-2 {
+    margin-left: 20px;
+  }
+
+  .pages {
+    display: none;
+  }
+
+  .fa-bars {
+    display: inline;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    margin-left: 20px;
+  }
+
+  .fa-search {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin-right: 60px;
+  }
+
+  .fa-shopping-cart {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    margin-right: 20px;
+  }
+
+  .icons {
+    position: unset;
+  }
+
+  .discount__text {
+    max-width: 450px;
   }
 }
 
@@ -262,28 +314,6 @@ footer {
   .Footer-style {
     flex-direction: column;
     width: 300px;
-  }
-
-  header {
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-
-  main {
-    margin-left: 3%;
-    margin-right: 3%;
-  }
-
-  .fa-shopping-cart {
-    margin-right: 5%;
-  }
-
-  .fa-search {
-    right: 16.5%;
-  }
-
-  nav ul li .fa-bars {
-    margin-left: 5%;
   }
 
   .environment__p2 {
