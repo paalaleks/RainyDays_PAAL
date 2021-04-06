@@ -39,7 +39,7 @@ header {
   /* background-color: white; */
   margin-left: 9%;
   margin-right: 9%;
-  margin-top: 75px;
+  margin-top: 100px;
   margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
@@ -83,7 +83,7 @@ nav ul li .fa-bars {
   display: none;
 }
 
-/* moving to mobile navigation */
+/* moving to hamburger menu */
 
 @media only screen and (max-width: 700px) {
   .splashIcon {
@@ -134,7 +134,6 @@ main {
 
 .discount-section {
   position: relative;
-
   display: flex;
   margin-bottom: 110px;
 }
@@ -170,8 +169,6 @@ main {
 .insta img {
   display: flex;
   width: 100%;
-  /* margin-bottom: auto;
-  margin-left: auto; */
 }
 
 .instagramlogo img {
@@ -207,7 +204,6 @@ main {
   }
 
   .insta-container {
-    /* display: flex; */
     width: 100%;
   }
 
