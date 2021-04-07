@@ -1,5 +1,5 @@
 @font-face {
-  font-family: "../fonts/BaksoSapi 2.otf";
+  font-family: "BaksoSapi 2";
   src: url("../fonts/BaksoSapi 2.otf");
 }
 
@@ -33,7 +33,7 @@ header {
 .splashIcon {
   /* background-color: wheat; */
 
-  width: 27%;
+  width: 26%;
   object-fit: scale-down;
   min-width: 260px;
   position: relative;
@@ -51,10 +51,6 @@ ul li {
 ul {
   display: inline-flex;
   padding: 0;
-}
-
-.fa-bars {
-  display: none;
 }
 
 .adventure {
@@ -88,6 +84,15 @@ ul {
   padding: 0px 4px 0px 8px;
   /* background-color: silver; */
 }
+
+.icons .fa-bars {
+  /* background-color: teal; */
+  display: none;
+}
+
+/* .fa-bars {
+  display: none;
+} */
 
 main {
   margin-left: 80px;
@@ -241,7 +246,8 @@ main {
     display: none;
   }
 
-  .fa-bars {
+  .icons .fa-bars {
+    /* background-color: teal; */
     display: inline;
     position: absolute;
     left: 0;
@@ -284,34 +290,40 @@ footer {
 
 .Footer-style {
   margin: auto;
-  width: 400px;
+  width: 450px;
   display: flex;
   flex-wrap: wrap;
   position: relative;
   top: 280px;
-  justify-content: center;
-  font: normal normal normal 16px/30px Source Sans Pro;
+  justify-content: left;
+  font: 1em/3em Source Sans Pro;
   color: #f2e9df;
   align-items: center;
+}
+
+.Footer-style p a {
+  text-decoration: underline;
 }
 
 .Footer-style a {
   text-decoration: none;
   color: #f2e9df;
+  padding: 10px;
+  /* background-color: teal; */
 }
 
-.Footer-style a,
-.Footer-style p,
 .Footer-style i {
-  padding: 0 9px;
+  padding: 10px;
 }
 
 .footer-copyright {
-  font-size: 0.9em;
+  padding: 10px;
+  font: 0.9em/2em Source Sans Pro;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 475px) {
   .Footer-style {
+    top: 250px;
     flex-direction: column;
     width: 300px;
   }
