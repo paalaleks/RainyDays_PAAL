@@ -31,9 +31,25 @@ header {
 }
 
 .splashIcon {
-  /* background-color: wheat; */
-
   width: 26%;
+  object-fit: scale-down;
+  min-width: 260px;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.adventuress {
+  width: 29%;
+  object-fit: scale-down;
+  min-width: 260px;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.adventurer {
+  width: 29%;
   object-fit: scale-down;
   min-width: 260px;
   position: relative;
@@ -332,3 +348,5 @@ footer {
     display: none;
   }
 }
+
+/* Page: Adventuress */
