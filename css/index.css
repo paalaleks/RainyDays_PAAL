@@ -296,7 +296,7 @@ footer {
   position: relative;
   top: 280px;
   justify-content: center;
-  font: 0.9em/3em Source Sans Pro;
+  font: 0.9em/2.5em Source Sans Pro;
   color: #f2e9df;
   align-items: center;
 }
@@ -318,7 +318,7 @@ footer {
 
 .footer-copyright {
   padding: 10px;
-  font: 0.8em/2em Source Sans Pro;
+  font: 0.8em/1.5em Source Sans Pro;
 }
 
 @media only screen and (max-width: 475px) {
