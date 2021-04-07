@@ -323,7 +323,7 @@ footer {
 
 @media only screen and (max-width: 475px) {
   .Footer-style {
-    top: 250px;
+    top: 200px;
     flex-direction: column;
     width: 300px;
   }
