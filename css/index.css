@@ -7,10 +7,6 @@
   box-sizing: border-box;
 }
 
-html {
-  overflow: hidden;
-}
-
 body {
   background-color: #f2e9df;
   color: #2d3319;
@@ -299,8 +295,8 @@ footer {
   flex-wrap: wrap;
   position: relative;
   top: 280px;
-  justify-content: left;
-  font: 1em/3em Source Sans Pro;
+  justify-content: center;
+  font: 0.9em/3em Source Sans Pro;
   color: #f2e9df;
   align-items: center;
 }
@@ -322,7 +318,7 @@ footer {
 
 .footer-copyright {
   padding: 10px;
-  font: 0.9em/2em Source Sans Pro;
+  font: 0.8em/2em Source Sans Pro;
 }
 
 @media only screen and (max-width: 475px) {
