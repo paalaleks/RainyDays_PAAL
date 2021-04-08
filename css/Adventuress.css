@@ -36,7 +36,7 @@ header {
   min-width: 260px;
   position: relative;
   left: 0;
-  top: -6px;
+  top: 0;
 }
 
 .adventuress {
@@ -54,13 +54,13 @@ header {
   min-width: 275px;
   position: relative;
   left: 0;
-  top: -6px;
+  top: 0;
 }
 
 ul li {
   /* background-color: violet; */
   display: inline-flex;
-  font-weight: bolder;
+  font-weight: bold;
   white-space: nowrap;
 }
 
@@ -69,57 +69,31 @@ ul {
   padding: 0;
 }
 
-/* GREEN MARKER */
-
 .adventure {
+  position: absolute;
+  left: 37.5%;
   display: flex;
 }
 
-.adventure-1,
+.adventure-1 {
+  position: relative;
+  left: 18px;
+  top: 1px;
+}
+
+.div_adventure-1 {
+  background-image: url(/images/big_selector.png);
+  background-size: contain;
+  height: 49px;
+  width: 134px;
+  background-repeat: no-repeat;
+  background-position-y: -35%;
+}
+
 .adventure-2 {
   position: relative;
-  height: 49px;
-  width: 134px;
-  top: 4px;
-}
-
-.div_adventure-1 {
-  position: relative;
-  padding-left: 20px;
-  left: 80px;
-  height: 49px;
-  width: 134px;
-}
-
-.div_adventure-2 {
-  position: relative;
-  padding-left: 20px;
-  left: 90px;
-  height: 49px;
-  width: 134px;
-}
-
-/* ADVENTURE GREEN MARKER */
-
-/* .adventure-1 {
-  color: #f2e9df;
-  width: 134px;
-  height: 49px;
-}
-
-.div_adventure-1 {
-  background-image: url(/images/big_selector.png);
-  background-size: contain;
-  width: 134px;
-  height: 49px;
-  background-repeat: no-repeat;
-  background-position-y: -20%;
-} */
-
-/* .adventure-2 {
-  color: #f2e9df;
-  height: 49px;
-  width: 134px;
+  left: 18px;
+  top: 1px;
 }
 
 .div_adventure-2 {
@@ -128,120 +102,33 @@ ul {
   height: 49px;
   width: 134px;
   background-repeat: no-repeat;
-  background-position-y: -20%;
-} */
-
-/* ADVENTURE GREEN MARKER END */
+  background-position-y: -35%;
+}
 
 .pages {
-  display: flex;
-}
-
-.pages-1 {
-  position: relative;
-  left: 50px;
-  height: 54px;
-  width: 68px;
-  top: 4px;
-}
-.pages-2,
-.pages-3 {
-  position: relative;
-  height: 54px;
-  width: 114px;
-  top: 4px;
-}
-
-.div_pages-1 {
   position: absolute;
-  right: 360px;
-  height: 54px;
-  width: 114px;
+  right: 16%;
 }
 
-.div_pages-2 {
-  position: absolute;
-  padding-left: 10px;
-  right: 236px;
-  height: 54px;
-  width: 114px;
+.pages a {
+  padding: 0px 6px;
+  /* background-color: aqua; */
 }
-.div_pages-3 {
-  position: absolute;
-  padding-left: 10px;
-  right: 240px;
-  right: 130px;
-  width: 114px;
-}
-
-/* PAGES GREEN MARKER */
-
-.pages-1 {
-  position: relative;
-  left: 50px;
-  color: #f2e9df;
-  height: 54px;
-  width: 114px;
-}
-
-.div_pages-1 {
-  background-image: url(/images/small_selctor-2.png);
-  background-size: contain;
-  height: 54px;
-  width: 114px;
-  background-repeat: no-repeat;
-  background-position-x: 39px;
-  background-size: 60%;
-}
-
-/* .pages-2 {
-  position: relative;
-  color: #f2e9df;
-  height: 54px;
-  width: 114px;
-}
-
-.div_pages-2 {
-  background-image: url(/images/small_selctor-2.png);
-  background-size: contain;
-  height: 54px;
-  width: 114px;
-  background-repeat: no-repeat;
-  background-position-x: 6px;
-  background-size: 69%;
-} */
-
-/* .pages-3 {
-  position: relative;
-  color: #f2e9df;
-  height: 54px;
-  width: 114px;
-}
-
-.div_pages-3 {
-  background-image: url(/images/small_selctor-2.png);
-  background-size: contain;
-  height: 54px;
-  width: 114px;
-  background-repeat: no-repeat;
-  background-position-x: 4px;
-  background-size: 69%;
-} */
-
-/* PAGES GREEN MARKER END */
 
 .icons {
   position: absolute;
   right: 0;
-  margin-top: 4px;
   margin-right: 80px;
+  /* background-color: violet; */
 }
 
 .icons i {
   padding: 0px 4px 0px 8px;
+  /* background-color: silver; */
 }
 
 .icons .fa-bars {
+  /* background-color: teal; */
   display: none;
 }
 
@@ -316,25 +203,20 @@ main {
   display: none;
 }
 
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 990px) {
   header {
     display: block;
   }
 
-  .div_adventure-1 {
+  .adventure {
     position: relative;
-    padding-left: 20px;
-    left: -18px;
-    height: 49px;
-    width: 134px;
+    left: 0;
+    justify-content: space-evenly;
   }
 
-  .div_adventure-2 {
-    position: relative;
-    padding-left: 20px;
-    left: 0;
-    height: 49px;
-    width: 134px;
+  .pages {
+    position: absolute;
+    right: 20%;
   }
 
   .discount-section {
@@ -404,6 +286,7 @@ main {
   }
 
   .icons .fa-bars {
+    /* background-color: teal; */
     display: inline;
     position: absolute;
     left: 0;
@@ -488,3 +371,5 @@ footer {
     display: none;
   }
 }
+
+/* Page: Adventuress */
