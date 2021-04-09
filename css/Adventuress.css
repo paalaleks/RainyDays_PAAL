@@ -34,7 +34,7 @@
 .div_adventure-1 {
   background-image: url(/images/big_selector.png);
   background-size: contain;
-  width: 134px;
-  height: 49px;
+  /* width: 134px;
+  height: 49px; */
   background-repeat: no-repeat;
 }
