@@ -90,6 +90,7 @@ nav a {
 }
 
 .div_adventure-1 {
+  display: inline-flex;
   position: relative;
   left: 80px;
   height: 49px;
@@ -97,6 +98,7 @@ nav a {
 }
 
 .div_adventure-2 {
+  display: inline-flex;
   position: relative;
   left: 90px;
   height: 49px;
