@@ -10,32 +10,34 @@
   color: unset;
 }
 
-.pages-3 a,
-.div_pages-3 {
-  background-image: unset;
-  color: unset;
-}
-
 .adventure-1 a,
 .div_adventure-1 {
   background-image: unset;
   color: unset;
 }
 
-.adventure-2 {
-  height: 49px;
-  width: 134px;
+.adventure-2 a,
+.div_adventure-2 {
+  background-image: unset;
+  color: unset;
 }
 
-.adventure-2 a {
+.pages-3 {
+  position: relative;
+  height: 54px;
+  width: 114px;
+}
+
+.pages-3 a {
   color: #f2e9df;
 }
 
-.div_adventure-2 {
-  background-image: url(/images/big_selector.png);
+.div_pages-3 {
+  background-image: url(/images/small_selctor-2.png);
   background-size: contain;
-  height: 49px;
-  width: 134px;
+  height: 54px;
+  width: 114px;
   background-repeat: no-repeat;
-  background-position-y: -20%;
+  background-position-x: 4px;
+  background-size: 69%;
 }

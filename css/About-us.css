@@ -4,14 +4,14 @@
   color: unset;
 }
 
-.pages-2 a,
-.div_pages-2 {
+.pages-3 a,
+.div_pages-3 {
   background-image: unset;
   color: unset;
 }
 
-.pages-3 a,
-.div_pages-3 {
+.adventure-1 a,
+.div_adventure-1 {
   background-image: unset;
   color: unset;
 }
@@ -22,20 +22,22 @@
   color: unset;
 }
 
-.adventure-1 {
-  width: 134px;
-  height: 49px;
+.pages-2 {
+  position: relative;
+  height: 54px;
+  width: 114px;
 }
 
-.adventure-1 a {
+.pages-2 a {
   color: #f2e9df;
 }
 
-.div_adventure-1 {
-  background-image: url(/images/big_selector.png);
+.div_pages-2 {
+  background-image: url(/images/small_selctor-2.png);
   background-size: contain;
-  width: 134px;
-  height: 49px;
+  height: 54px;
+  width: 114px;
   background-repeat: no-repeat;
-  background-position-y: -20%;
+  background-position-x: 6px;
+  background-size: 69%;
 }

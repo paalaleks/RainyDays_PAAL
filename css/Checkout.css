@@ -22,20 +22,12 @@
   color: unset;
 }
 
-.adventure-2 {
-  height: 49px;
-  width: 134px;
-}
-
-.adventure-2 a {
-  color: #f2e9df;
-}
-
+.adventure-2 a,
 .div_adventure-2 {
-  background-image: url(/images/big_selector.png);
-  background-size: contain;
-  height: 49px;
-  width: 134px;
-  background-repeat: no-repeat;
-  background-position-y: -20%;
+  background-image: unset;
+  color: unset;
+}
+
+.fa-shopping-cart {
+  color: #788846;
 }

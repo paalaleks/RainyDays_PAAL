@@ -10,13 +10,14 @@
 body {
   background-color: #f2e9df;
   color: #2d3319;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Source Sans Pro", sans-serif, Verdana;
+  font-weight: normal;
   font-size: 1.5em;
 }
 
 h2,
 h3 {
-  font-family: BaksoSapi, sans-serif, Verdana, Geneva, Tahoma;
+  font-family: BaksoSapi, "Source Sans Pro", sans-serif, Verdana;
   font-size: 1.4em;
 }
 
@@ -57,19 +58,24 @@ header {
   top: -6px;
 }
 
-ul li {
+li {
   /* background-color: violet; */
   display: inline-flex;
   font-weight: bolder;
   white-space: nowrap;
 }
 
-ul {
-  display: inline-flex;
+nav {
+  display: flex;
   padding: 0;
 }
 
-/* GREEN MARKER */
+nav a {
+  text-decoration: none;
+  color: #2d3319;
+}
+
+/* NAV POSITIONS */
 
 .adventure {
   display: flex;
@@ -77,7 +83,6 @@ ul {
 
 .adventure-1,
 .adventure-2 {
-  cursor: pointer;
   position: relative;
   height: 49px;
   width: 134px;
@@ -100,40 +105,6 @@ ul {
   width: 134px;
 }
 
-/* ADVENTURE GREEN MARKER */
-
-/* .adventure-1 {
-  color: #f2e9df;
-  width: 134px;
-  height: 49px;
-}
-
-.div_adventure-1 {
-  background-image: url(/images/big_selector.png);
-  background-size: contain;
-  width: 134px;
-  height: 49px;
-  background-repeat: no-repeat;
-  background-position-y: -20%;
-} */
-
-/* .adventure-2 {
-  color: #f2e9df;
-  height: 49px;
-  width: 134px;
-}
-
-.div_adventure-2 {
-  background-image: url(/images/big_selector.png);
-  background-size: contain;
-  height: 49px;
-  width: 134px;
-  background-repeat: no-repeat;
-  background-position-y: -20%;
-} */
-
-/* ADVENTURE GREEN MARKER END */
-
 .pages {
   display: flex;
 }
@@ -148,8 +119,6 @@ ul {
 }
 .pages-2,
 .pages-3 {
-  z-index: 6;
-  cursor: pointer;
   position: relative;
   height: 54px;
   width: 114px;
@@ -178,14 +147,17 @@ ul {
   width: 114px;
 }
 
-/* PAGES GREEN MARKER */
+/* NAV POSITIONS END */
 
 .pages-1 {
   position: relative;
   left: 50px;
-  color: #f2e9df;
   height: 54px;
   width: 114px;
+}
+
+.pages-1 a {
+  color: #f2e9df;
 }
 
 .div_pages-1 {
@@ -198,42 +170,6 @@ ul {
   background-size: 60%;
 }
 
-/* .pages-2 {
-  position: relative;
-  color: #f2e9df;
-  height: 54px;
-  width: 114px;
-}
-
-.div_pages-2 {
-  background-image: url(/images/small_selctor-2.png);
-  background-size: contain;
-  height: 54px;
-  width: 114px;
-  background-repeat: no-repeat;
-  background-position-x: 6px;
-  background-size: 69%;
-} */
-
-/* .pages-3 {
-  position: relative;
-  color: #f2e9df;
-  height: 54px;
-  width: 114px;
-}
-
-.div_pages-3 {
-  background-image: url(/images/small_selctor-2.png);
-  background-size: contain;
-  height: 54px;
-  width: 114px;
-  background-repeat: no-repeat;
-  background-position-x: 4px;
-  background-size: 69%;
-} */
-
-/* PAGES GREEN MARKER END */
-
 .icons {
   position: absolute;
   right: 0;
@@ -242,7 +178,6 @@ ul {
 }
 
 .icons i {
-  cursor: pointer;
   padding: 0px 4px 0px 8px;
 }
 
@@ -385,24 +320,13 @@ main {
 
   nav {
     margin: auto;
-  }
-
-  ul {
-    display: inline-block;
+    display: block;
   }
 
   .adventure {
     display: flex;
     position: unset;
   }
-
-  /* .adventure-1 {
-    margin-right: 20px;
-  }
-
-  .adventure-2 {
-    margin-left: 20px;
-  } */
 
   .pages {
     display: none;
@@ -441,7 +365,7 @@ main {
 }
 
 footer {
-  background-image: url(/images/Artboard\ 2.png);
+  background-image: url(/images/woodfooter.png);
   background-size: cover;
   min-width: 300px;
   min-height: 739px;
