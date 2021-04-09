@@ -92,15 +92,14 @@ nav a {
 .div_adventure-1 {
   position: relative;
   left: 20px;
-  height: 37px;
-  width: 150px;
+  height: 39px;
+  width: 175px;
 }
 
 .div_adventure-2 {
   position: relative;
-  left: 25px;
-  height: 37px;
-  width: 150px;
+  height: 39px;
+  width: 175px;
 }
 
 .pages {
@@ -259,9 +258,11 @@ main {
     display: block;
   }
 
-  .div_adventure-1,
+  .div_adventure-1 {
+    left: -10px;
+  }
   .div_adventure-2 {
-    left: -20px;
+    left: -25px;
   }
 
   .discount-section {
@@ -299,11 +300,6 @@ main {
     margin: 100px 20px 20px 20px;
     display: flex;
     flex-direction: column;
-  }
-
-  .div_adventure-1,
-  .div_adventure-2 {
-    margin: 0px 5px;
   }
 
   main {
