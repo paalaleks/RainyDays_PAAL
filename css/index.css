@@ -12,7 +12,7 @@ body {
   color: #2d3319;
   font-family: "Source Sans Pro", sans-serif, Verdana;
   font-weight: normal;
-  font-size: 1.5em;
+  font-size: 1.3em;
 }
 
 h2,
@@ -86,7 +86,7 @@ nav a {
   position: relative;
   height: 49px;
   width: 134px;
-  padding: 6px 0px 23px 28px;
+  padding: 6px 0px 23px 8px;
 }
 
 .div_adventure-1 {
@@ -300,6 +300,13 @@ main {
     margin: 100px 20px 20px 20px;
     display: flex;
     flex-direction: column;
+  }
+
+  .div_adventure-1 {
+    left: 0px;
+  }
+  .div_adventure-2 {
+    left: 0px;
   }
 
   main {
