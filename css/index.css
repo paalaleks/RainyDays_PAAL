@@ -12,7 +12,7 @@ body {
   color: #2d3319;
   font-family: "Source Sans Pro", sans-serif, Verdana;
   font-weight: normal;
-  font-size: 1.3em;
+  font-size: 1.4em;
 }
 
 h2,
@@ -86,7 +86,6 @@ nav a {
   position: relative;
   height: 49px;
   width: 134px;
-  /* padding: 6px 0px 23px 8px; */
 }
 
 .div_adventure-1 {
@@ -94,14 +93,14 @@ nav a {
   left: 20px;
   height: 39px;
   width: 175px;
-  padding: 8px 0px 0px 25px;
+  padding: 9px 0px 0px 31px;
 }
 
 .div_adventure-2 {
   position: relative;
   height: 39px;
   width: 175px;
-  padding: 8px 0px 0px 25px;
+  padding: 9px 0px 0px 31px;
 }
 
 .pages {
@@ -114,14 +113,14 @@ nav a {
   left: 50px;
   height: 54px;
   width: 68px;
-  top: 8px;
+  top: 9px;
 }
 .pages-2,
 .pages-3 {
   position: relative;
   height: 54px;
   width: 114px;
-  top: 8px;
+  top: 9px;
 }
 
 .div_pages-1 {
@@ -172,7 +171,7 @@ nav a {
 .icons {
   position: absolute;
   right: 0;
-  margin-top: 8px;
+  margin-top: 9px;
   margin-right: 80px;
 }
 
@@ -261,10 +260,10 @@ main {
   }
 
   .div_adventure-1 {
-    left: -10px;
+    left: -20px;
   }
   .div_adventure-2 {
-    left: -25px;
+    left: -35px;
   }
 
   .discount-section {
@@ -304,12 +303,12 @@ main {
     flex-direction: column;
   }
 
-  /* .div_adventure-1 {
-    left: unset;
+  .div_adventure-1 {
+    left: 10px;
   }
   .div_adventure-2 {
-    left: unset;
-  } */
+    left: 5px;
+  }
 
   main {
     margin: 0px 20px 0px 20px;
@@ -318,11 +317,6 @@ main {
   nav {
     margin: auto;
     display: block;
-  }
-
-  .adventure {
-    display: flex;
-    position: unset;
   }
 
   .pages {
@@ -405,6 +399,21 @@ footer {
 }
 
 @media only screen and (max-width: 475px) {
+  body {
+    font-size: 1.3em;
+  }
+
+  .div_adventure-1 {
+    left: -10px;
+  }
+  .div_adventure-2 {
+    left: -30px;
+  }
+
+  main {
+    margin: 0px 10px 0px 10px;
+  }
+
   .Footer-style {
     top: 190px;
     flex-direction: column;
@@ -413,5 +422,14 @@ footer {
 
   .environment__p2 {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 335px) {
+  .div_adventure-1 {
+    left: -30px;
+  }
+  .div_adventure-2 {
+    left: -50px;
   }
 }
