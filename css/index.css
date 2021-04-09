@@ -37,7 +37,7 @@ header {
   min-width: 275px;
   position: relative;
   left: 0;
-  top: -6px;
+  /* top: -6px; */
 }
 
 .adventuress {
@@ -46,7 +46,7 @@ header {
   min-width: 275px;
   position: relative;
   left: 0;
-  top: -6px;
+  /* top: -6px; */
 }
 
 .adventurer {
@@ -55,7 +55,7 @@ header {
   min-width: 275px;
   position: relative;
   left: 0;
-  top: -6px;
+  /* top: -6px; */
 }
 
 li {
@@ -86,12 +86,11 @@ nav a {
   position: relative;
   height: 49px;
   width: 134px;
-  top: 4px;
+  padding: 8px 8px 15px 15px;
 }
 
 .div_adventure-1 {
   position: relative;
-  padding-left: 20px;
   left: 80px;
   height: 49px;
   width: 134px;
@@ -99,7 +98,6 @@ nav a {
 
 .div_adventure-2 {
   position: relative;
-  padding-left: 20px;
   left: 90px;
   height: 49px;
   width: 134px;
@@ -115,14 +113,14 @@ nav a {
   left: 50px;
   height: 54px;
   width: 68px;
-  top: 4px;
+  top: 8px;
 }
 .pages-2,
 .pages-3 {
   position: relative;
   height: 54px;
   width: 114px;
-  top: 4px;
+  top: 8px;
 }
 
 .div_pages-1 {
