@@ -86,7 +86,7 @@ nav a {
   position: relative;
   height: 49px;
   width: 134px;
-  padding: 6px 0px 23px 8px;
+  /* padding: 6px 0px 23px 8px; */
 }
 
 .div_adventure-1 {
@@ -94,12 +94,14 @@ nav a {
   left: 20px;
   height: 39px;
   width: 175px;
+  padding: 8px 0px 0px 25px;
 }
 
 .div_adventure-2 {
   position: relative;
   height: 39px;
   width: 175px;
+  padding: 8px 0px 0px 25px;
 }
 
 .pages {
@@ -112,14 +114,14 @@ nav a {
   left: 50px;
   height: 54px;
   width: 68px;
-  top: 6px;
+  top: 8px;
 }
 .pages-2,
 .pages-3 {
   position: relative;
   height: 54px;
   width: 114px;
-  top: 6px;
+  top: 8px;
 }
 
 .div_pages-1 {
@@ -170,7 +172,7 @@ nav a {
 .icons {
   position: absolute;
   right: 0;
-  margin-top: 4px;
+  margin-top: 8px;
   margin-right: 80px;
 }
 
@@ -302,12 +304,12 @@ main {
     flex-direction: column;
   }
 
-  .div_adventure-1 {
-    left: 0px;
+  /* .div_adventure-1 {
+    left: unset;
   }
   .div_adventure-2 {
-    left: 0px;
-  }
+    left: unset;
+  } */
 
   main {
     margin: 0px 20px 0px 20px;
