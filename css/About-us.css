@@ -41,3 +41,29 @@
   background-position-x: 6px;
   background-size: 69%;
 }
+
+h1,
+h2 {
+  width: 350px;
+}
+
+p:nth-of-type(1),
+p:nth-of-type(2),
+p:nth-of-type(3) {
+  max-width: 420px;
+}
+
+.AboutUs_img {
+  right: 100px;
+  float: right;
+  height: 600px;
+  padding: 0px 0px 20px 20px;
+  object-fit: scale-down;
+}
+
+/* @media only screen and (max-width: 1160px) {
+  .AboutUs_img {
+    right: 0px;
+    padding-left: 20px;
+  }
+} */

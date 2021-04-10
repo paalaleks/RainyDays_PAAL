@@ -7,18 +7,44 @@
   box-sizing: border-box;
 }
 
+::placeholder {
+  font-family: "Source Sans Pro", sans-serif, verdana;
+}
+
+:focus {
+  border-color: #788846;
+}
+
+body,
+html {
+  height: 100%;
+}
+
 body {
   background-color: #f2e9df;
   color: #2d3319;
   font-family: "Source Sans Pro", sans-serif, Verdana;
   font-weight: normal;
   font-size: 1.4em;
+  margin: 0;
 }
 
+h1,
 h2,
 h3 {
   font-family: BaksoSapi, "Source Sans Pro", sans-serif, Verdana;
   font-size: 1.4em;
+}
+
+h4 {
+  font-family: BaksoSapi, "Source Sans Pro", sans-serif, Verdana;
+  font-size: 1.2em;
+}
+
+h5 {
+  font-family: BaksoSapi, "Source Sans Pro", sans-serif, Verdana;
+  font-size: 0.8em;
+  text-decoration: none;
 }
 
 .hashtag {
@@ -90,7 +116,7 @@ nav a {
 
 .div_adventure-1 {
   position: relative;
-  left: 20px;
+  left: 10px;
   height: 39px;
   width: 175px;
   padding: 9px 0px 0px 31px;
@@ -98,6 +124,7 @@ nav a {
 
 .div_adventure-2 {
   position: relative;
+  left: 10px;
   height: 39px;
   width: 175px;
   padding: 9px 0px 0px 31px;
@@ -186,12 +213,13 @@ nav a {
 main {
   margin-left: 80px;
   margin-right: 80px;
+  display: flex;
 }
 
 .discount-section {
   position: relative;
   display: flex;
-  margin-bottom: 110px;
+  /* margin-bottom: 110px; */
 }
 
 .discount__image {
@@ -243,7 +271,7 @@ main {
 }
 
 .environment {
-  margin-bottom: 100px;
+  margin: 50px 0px 0px 0px;
 }
 
 .environment__img {
@@ -254,7 +282,7 @@ main {
   display: none;
 }
 
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 1160px) {
   header {
     display: block;
   }
@@ -310,9 +338,9 @@ main {
     left: 5px;
   }
 
-  main {
+  /* main {
     margin: 0px 20px 0px 20px;
-  }
+  } */
 
   nav {
     margin: auto;
@@ -355,47 +383,53 @@ main {
   }
 }
 
-footer {
-  background-image: url(/images/woodfooter.png);
-  background-size: cover;
-  min-width: 300px;
-  min-height: 739px;
-  width: 100%;
+.footer-bg {
   position: absolute;
-  right: 0%;
+  width: 100%;
+  height: 100%;
+  background-image: url(/images/woodfooter.png);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-size: 100%;
+  max-width: 1445.25px;
+  max-height: 569.25px;
+  min-width: 963.5px;
+  min-height: 379.5px;
 }
 
-.Footer-style {
-  margin: auto;
-  width: 450px;
+.footer-position,
+.footer-position_2 {
+  justify-content: center;
+  align-items: center;
   display: flex;
   flex-wrap: wrap;
+  margin: 0px 20px;
+}
+
+.footer-items {
   position: relative;
-  top: 280px;
-  justify-content: left;
-  font: 0.9em/2.5em Source Sans Pro;
-  color: #f2e9df;
-  align-items: center;
-}
-
-.Footer-style p a {
-  text-decoration: underline;
-}
-
-.Footer-style a {
+  white-space: nowrap;
+  top: 330px;
+  /* background-color: aqua; */
+  position: relative;
+  padding: 5px;
+  width: 200px;
   text-decoration: none;
+  font: 1em/1.5em Source Sans Pro;
   color: #f2e9df;
-  padding: 10px;
-  /* background-color: teal; */
 }
 
-.Footer-style i {
-  padding: 10px;
+.footer-items a {
+  color: #f2e9df;
+  margin: 0;
+}
+
+.footer-items i {
+  padding: 0px 10px;
 }
 
 .footer-copyright {
-  padding: 10px;
-  font: 0.8em/1.5em Source Sans Pro;
+  font: 0.9em source Sans Pro;
 }
 
 @media only screen and (max-width: 475px) {
@@ -403,14 +437,7 @@ footer {
     font-size: 1.3em;
   }
 
-  .div_adventure-1 {
-    left: -10px;
-  }
-  .div_adventure-2 {
-    left: -30px;
-  }
-
-  main {
+  /* main {
     margin: 0px 10px 0px 10px;
   }
 
@@ -418,18 +445,85 @@ footer {
     top: 190px;
     flex-direction: column;
     width: 300px;
-  }
+  } */
 
   .environment__p2 {
     display: none;
   }
 }
 
-@media only screen and (max-width: 335px) {
-  .div_adventure-1 {
-    left: -30px;
-  }
-  .div_adventure-2 {
-    left: -50px;
-  }
+/* FORM*/
+
+label {
+  font-family: BaksoSapi, "Source Sans Pro", sans-serif, Verdana;
+  font-size: 0.7em;
 }
+
+.form__input {
+  display: block;
+}
+
+.form-text {
+  width: 100%;
+  min-width: 250px;
+  max-width: 500px;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+fieldset:nth-of-type(2) {
+  margin-bottom: 10px;
+}
+
+textarea,
+input {
+  text-indent: 2px;
+}
+
+textarea {
+  width: 100%;
+  padding: 5px;
+  min-height: 300px;
+  min-width: 250px;
+  max-height: 500px;
+  max-width: 500px;
+  /* width: 400px;
+  height: 400px; */
+}
+
+.button-style {
+  width: 100%;
+  min-width: 250px;
+  max-width: 500px;
+  height: 40px;
+  font-family: "Source Sans Pro", sans-serif, Verdana;
+  background-color: #2d3319;
+  color: #f2e9df;
+  border: none;
+  border-radius: 4px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-container {
+  margin: 0px 10px;
+}
+.product-container img,
+.product-container h5 {
+  width: 150px;
+}
+
+.product-container a {
+  text-decoration: none;
+}
+
+/* :-webkit-any-link {
+  color: #2d3319;
+  text-decoration: none;
+} */
