@@ -31,3 +31,17 @@
 .fa-shopping-cart {
   color: #788846;
 }
+
+.cart-header {
+  display: flex;
+  justify-content: center;
+}
+
+.cart-product {
+  display: flex;
+  justify-content: center;
+}
+.cart-product_2 h2 {
+  font-family: "Source Sans Pro", sans-serif, Verdana;
+  font-size: 0.7;
+}

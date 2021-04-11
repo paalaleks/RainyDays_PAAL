@@ -1,3 +1,21 @@
+/* h1 {
+  margin-top: 0;
+} */
+
+h2 {
+  color: #2d3319;
+  font-family: "Source Sans Pro", sans-serif, Verdana;
+  font-weight: bolder;
+  font-size: 0.9em;
+}
+
+h4 {
+  color: #2d3319;
+  font-family: "Source Sans Pro", sans-serif, Verdana;
+  font-weight: normal;
+  font-size: 1.1em;
+}
+
 .pages-1 a,
 .div_pages-1 {
   background-image: unset;
@@ -23,8 +41,8 @@
 }
 
 .adventure-2 {
-  height: 49px;
   width: 134px;
+  height: 49px;
 }
 
 .adventure-2 a {
@@ -34,7 +52,12 @@
 .div_adventure-2 {
   background-image: url(/images/big_selector.png);
   background-size: contain;
+  /* width: 134px;
+  height: 49px; */
   background-repeat: no-repeat;
-  background-position-x: 2px;
-  background-position-y: 2px;
+}
+
+.product-list {
+  margin-top: 20px;
+  display: flex;
 }

@@ -38,12 +38,12 @@
   height: 54px;
   width: 114px;
   background-repeat: no-repeat;
-  background-position-x: 4px;
-  background-size: 69%;
+  background-position-x: 6px;
+  background-position-y: 6px;
+  background-size: 60%;
 }
 
 .contact-form {
-  position: relative;
-  top: -10px;
-  margin: auto;
+  margin-top: -10px;
+  margin-left: 20px;
 }
