@@ -422,10 +422,8 @@ textarea {
   top: 20px;
   position: relative;
   margin: 50px;
-  width: 100px;
   display: flex;
-  justify-content: space-around;
-  justify-content: center;
+  align-items: center;
 }
 
 .button-style {
