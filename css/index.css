@@ -437,6 +437,14 @@ main {
     font-size: 1.3em;
   }
 
+  .footer-items {
+    font: 0.7em/1.2em Source Sans Pro;
+  }
+
+  .footer-position_0 {
+    width: 275px;
+  }
+
   .environment__p2 {
     display: none;
   }
