@@ -419,14 +419,11 @@ textarea {
 }
 
 .button-container {
+  top: 20px;
   position: relative;
   margin: 50px;
   width: 100px;
   display: flex;
-  justify-content: space-around;
-}
-
-.button-container strong {
   justify-content: space-around;
 }
 
