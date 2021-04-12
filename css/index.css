@@ -427,11 +427,10 @@ textarea {
 }
 
 .button-style {
-  min-width: 100px;
-  min-width: 100px;
+  min-width: 120px;
   height: 40px;
   font-family: "Source Sans Pro", sans-serif, Verdana;
-  font-size: 0.8em;
+  font-size: 0.9em;
   background-color: #2d3319;
   color: #f2e9df;
   border: none;
@@ -440,10 +439,10 @@ textarea {
 
 .button-style_2 {
   margin-left: 20px;
-  min-width: 100px;
+  min-width: 120px;
   height: 30px;
   font-family: "Source Sans Pro", sans-serif, Verdana;
-  font-size: 1em;
+  font-size: 0.9em;
   background-color: #2d3319;
   color: #f2e9df;
   border: none;
