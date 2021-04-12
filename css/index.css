@@ -365,7 +365,7 @@ main {
 
 .footer-copyright {
   margin: auto;
-  font: 0.8em source Sans Pro;
+  font: 0.6em source Sans Pro;
 }
 
 @media only screen and (max-width: 790px) {
