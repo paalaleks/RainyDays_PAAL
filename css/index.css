@@ -368,6 +368,12 @@ main {
   .environment__p2 {
     display: none;
   }
+
+  .product-details_parent,
+  .product-details_text {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 /* FORM*/
