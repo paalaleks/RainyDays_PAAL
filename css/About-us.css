@@ -22,12 +22,6 @@
   color: unset;
 }
 
-.pages-2 {
-  position: relative;
-  height: 54px;
-  width: 114px;
-}
-
 .pages-2 a {
   color: #f2e9df;
 }
@@ -35,12 +29,10 @@
 .div_pages-2 {
   background-image: url(/images/small_selctor-2.png);
   background-size: contain;
-  height: 54px;
-  width: 114px;
   background-repeat: no-repeat;
-  background-position-x: 5px;
-  background-position-y: 4px;
-  background-size: 69%;
+  background-position-x: 20px;
+  background-position-y: 11px;
+  background-size: 66%;
 }
 
 h1,

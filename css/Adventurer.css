@@ -22,11 +22,6 @@
   color: unset;
 }
 
-.adventure-2 {
-  height: 49px;
-  width: 134px;
-}
-
 .adventure-2 a {
   color: #f2e9df;
 }
@@ -35,6 +30,6 @@
   background-image: url(/images/big_selector.png);
   background-size: contain;
   background-repeat: no-repeat;
-  background-position-x: 2px;
-  background-position-y: 2px;
+  background-position-x: 0px;
+  background-position-y: 8px;
 }

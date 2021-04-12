@@ -116,80 +116,21 @@ nav a {
 
 .adventure {
   display: flex;
+  margin-left: 10px;
 }
 
-.adventure-1,
-.adventure-2 {
-  position: relative;
-  height: 49px;
-  width: 134px;
-}
-
-.div_adventure-1 {
-  left: 15px;
-  position: relative;
-  height: 39px;
-  width: 175px;
-  padding: 9px 0px 0px 31px;
-}
-
-.div_adventure-2 {
-  right: 15px;
-  position: relative;
-  height: 39px;
-  width: 175px;
-  padding: 9px 0px 0px 31px;
+.adventure-1 a,
+.adventure-2 a,
+.pages-1,
+.pages-2,
+.pages-3 {
+  padding: 16px 25px;
 }
 
 .pages {
   display: flex;
-}
-
-.pages-1 {
-  cursor: default;
-  position: relative;
-  left: 50px;
-  height: 54px;
-  width: 68px;
-  top: 9px;
-}
-.pages-2,
-.pages-3 {
-  position: relative;
-  height: 54px;
-  width: 114px;
-  top: 9px;
-}
-
-.div_pages-1 {
   position: absolute;
-  right: 360px;
-  height: 54px;
-  width: 114px;
-}
-
-.div_pages-2 {
-  position: absolute;
-  padding-left: 10px;
-  right: 236px;
-  height: 54px;
-  width: 114px;
-}
-.div_pages-3 {
-  position: absolute;
-  padding-left: 10px;
-  right: 240px;
-  right: 130px;
-  width: 114px;
-}
-
-/* NAV POSITIONS END */
-
-.pages-1 {
-  position: relative;
-  left: 50px;
-  height: 54px;
-  width: 114px;
+  right: 180px;
 }
 
 .pages-1 a {
@@ -199,18 +140,16 @@ nav a {
 .div_pages-1 {
   background-image: url(/images/small_selctor-2.png);
   background-size: contain;
-  height: 54px;
-  width: 114px;
   background-repeat: no-repeat;
-  background-position-x: 39px;
-  background-position-y: 6px;
-  background-size: 60%;
+  background-position-x: 14px;
+  background-position-y: 11px;
+  background-size: 75%;
 }
 
 .icons {
   position: absolute;
   right: 0;
-  margin-top: 9px;
+  margin-top: 16px;
   margin-right: 80px;
 }
 
@@ -289,22 +228,10 @@ main {
   display: none;
 }
 
-@media only screen and (max-width: 1135px) {
+@media only screen and (max-width: 1150px) {
   header {
     display: block;
   }
-
-  .div_adventure-1 {
-    left: -15px;
-  }
-  .div_adventure-2 {
-    left: -15px;
-  }
-
-  /* .footer-position,
-  .footer-position_2 {
-    top: 400px;
-  } */
 }
 
 .footer-bg {
@@ -368,13 +295,6 @@ main {
 }
 
 @media only screen and (max-width: 790px) {
-  .div_adventure-1 {
-    left: 0;
-  }
-  .div_adventure-2 {
-    left: 0;
-  }
-
   header {
     margin: 100px 20px 20px 20px;
     display: flex;
@@ -596,7 +516,7 @@ textarea {
 }
 
 .button-container {
-  margin: 57px auto auto auto;
+  padding: 57px auto auto auto;
   display: flex;
   justify-content: space-around;
   width: 200px;
