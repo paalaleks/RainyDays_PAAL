@@ -431,7 +431,7 @@ textarea {
 }
 
 .button-style {
-  min-width: 135px;
+  width: 150px;
   height: 40px;
   font-family: "Source Sans Pro", sans-serif, Verdana;
   font-size: 0.9em;
