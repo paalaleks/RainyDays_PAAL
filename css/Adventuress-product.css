@@ -40,11 +40,6 @@ h4 {
   color: unset;
 }
 
-.adventure-1 {
-  width: 134px;
-  height: 49px;
-}
-
 .adventure-1 a {
   color: #f2e9df;
 }
@@ -52,9 +47,9 @@ h4 {
 .div_adventure-1 {
   background-image: url(/images/big_selector.png);
   background-size: contain;
-  /* width: 134px;
-  height: 49px; */
   background-repeat: no-repeat;
+  background-position-x: 0px;
+  background-position-y: 8px;
 }
 
 .product-list {

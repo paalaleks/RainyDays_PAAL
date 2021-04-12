@@ -228,9 +228,14 @@ main {
   display: none;
 }
 
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 1160px) {
   header {
     display: block;
+  }
+
+  .adventure {
+    position: relative;
+    left: -18px;
   }
 }
 
@@ -294,7 +299,7 @@ main {
   font: 0.6em source Sans Pro;
 }
 
-@media only screen and (max-width: 790px) {
+@media only screen and (max-width: 800px) {
   header {
     margin: 100px 20px 20px 20px;
     display: flex;
