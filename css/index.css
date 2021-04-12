@@ -308,7 +308,7 @@ main {
 }
 
 .footer-bg {
-  position: absolute;
+  position: relative;
   width: 100%;
   padding-bottom: 600px;
   background-image: url(/images/woodfooter.png);
@@ -318,25 +318,28 @@ main {
 }
 
 .footer-position_0 {
-  width: 425px;
   display: flex;
   position: absolute;
-  bottom: 0;
-  margin: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  width: 325px;
 }
 
 .footer-position {
+  white-space: nowrap;
   position: relative;
-  justify-content: flex-start;
-  align-items: center;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row-reverse;
 }
 
 .footer-position_2 {
+  white-space: nowrap;
   position: relative;
-  justify-content: flex-start;
-  align-items: center;
   display: flex;
   flex-wrap: wrap;
 }
@@ -357,11 +360,11 @@ main {
 }
 
 .footer-items i {
-  padding: 0px 10px;
+  padding: 0px 5px;
 }
 
 .footer-copyright {
-  margin-bottom: 2px;
+  margin: auto;
   font: 0.8em source Sans Pro;
 }
 
