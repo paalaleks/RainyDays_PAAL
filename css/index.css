@@ -426,6 +426,10 @@ textarea {
   align-items: center;
 }
 
+.button-container strong {
+  margin-right: 20px;
+}
+
 .button-style {
   min-width: 120px;
   height: 40px;
@@ -438,7 +442,6 @@ textarea {
 }
 
 .button-style_2 {
-  margin-left: 20px;
   min-width: 120px;
   height: 30px;
   font-family: "Source Sans Pro", sans-serif, Verdana;
